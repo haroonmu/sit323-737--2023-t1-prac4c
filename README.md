@@ -12,15 +12,19 @@ run this on your local browser/postman
 
 to get login token
 run your postman
-using **POST** type ```console
-http://localhost:3000/api/login
+using **POST** type
 
-````
+```
+http://localhost:3000/api/login
+```
+
 you'll get the token that you can copy to use for authenication.
 
-now if you run **GET** ```console
+now if you run **GET**
+
+```
 http://localhost:3000/api/protected
-````
+```
 
 you can see the console with show the error of forbidden because we haven't send authentication token before head.
 
